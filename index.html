@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Construction Forecast</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>2. Predictive analytics and forecasting for construction projects</h2>
+    <h3>Description:</h3>
+    <p>
+      An AI-powered platform to provide analytics based on construction progress data.
+      Provides forecasted completion dates and resources necessary to complete projects on time
+      in case of any delays or deviations.
+    </p>
+    <h3>Core Features:</h3>
+    <ul>
+      <li>Create a project plan or import from existing plan</li>
+      <li>Track construction progress periodically</li>
+      <li>Calculate and generate progress. Planned vs. Actuals</li>
+      <li>Generate dashboards, reports, trends and deviations</li>
+    </ul>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".csv" required>
+      <button type="submit">Upload Project Plan</button>
+    </form>
+  </div>
+</body>
+</html>
