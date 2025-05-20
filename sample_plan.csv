@@ -1,6 +1,0 @@
-Task ID,Task Name,Start Date,End Date,Planned Duration (days),Actual Duration (days),Status
-1,Site Preparation,2025-05-01,2025-05-05,5,5,Completed
-2,Foundation Laying,2025-05-06,2025-05-12,7,8,Completed
-3,Framing,2025-05-13,2025-05-20,8,6,Ongoing
-4,Roofing,2025-05-21,2025-05-26,6,,Pending
-5,Plumbing & Electrical,2025-05-27,2025-06-03,8,,Pending
